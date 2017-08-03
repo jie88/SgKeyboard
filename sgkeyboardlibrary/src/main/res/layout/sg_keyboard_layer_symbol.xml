@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--默认键盘布局，上排数字，下面字母-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingRight="1dp"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
+
+    <!--新版去除数字 2016-08-19-->
+    <!--&lt;!&ndash;数字行&ndash;&gt;
+    <com.ccb.framework.ui.widget.CcbLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9" />
+
+        <com.ccb.framework.ui.widget.CcbButton
+            android:id="@+id/symbol_row_one_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0" />
+
+    </com.ccb.framework.ui.widget.CcbLinearLayout>-->
+
+    <!--字符行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y154"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_two_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0" />
+
+    </LinearLayout>
+
+
+    <!--字符行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y154"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="s" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="9" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_three_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0" />
+
+    </LinearLayout>
+
+
+    <!--字符行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y154"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:gravity="center"
+            />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="4" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="5" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="6" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="7" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="8" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="d" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_four_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="d"
+             />
+
+    </LinearLayout>
+
+
+    <!--字母行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y154"
+        android:gravity="center_vertical"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_five_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:gravity="center"
+            />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_five_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2" />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_five_space"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6.5"
+            android:gravity="center"
+            android:background="@drawable/keyboard_key_selector_symbol_space"
+             />
+
+       <com.sg.jiechen.keyboard.ui.KeyButton
+            android:id="@+id/symbol_row_five_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/keyboard_key_selector_default_delete"
+            />
+
+    </LinearLayout>
+</LinearLayout>

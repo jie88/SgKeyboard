@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="ccb_txt_size_small">15dp</dimen>
+  <dimen name="ccb_keyboard_txt_size_normal">20dp</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="ccb_keyboard_style" parent="@android:style/Animation">
+    <item name="android:windowEnterAnimation">@anim/ccb_keyboard_in</item>
+    <item name="android:windowExitAnimation">@anim/ccb_keyboard_out</item>
+  </style>
+</resources>

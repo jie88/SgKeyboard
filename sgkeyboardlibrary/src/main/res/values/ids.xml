@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--键盘相关-->
+  <item name="tag_layer_switch_flag" type="id"></item>
+  <item name="tag_edit_text_input_control" type="id"></item>
+  <item name="tag_hidden_text_flag" type="id"></item>
+  <item name="tag_keyboard_height" type="id"></item>
+
+  <!--键盘相关-->
+</resources>

@@ -1,0 +1,17 @@
+{
+    "keyboard_background": "#e0eaf0",
+    "keyboard_title_color": "#09B6F2",
+    "keyboard_switch_color": "#09B6F2",
+    "keyboard_divider_color": "#ffffff",
+    "keyboard_key_color": "#333333",
+    "keyboard_selector_default_cap": "keyboard_white_key_selector_default_cap",
+    "keyboard_selector_default_low": "keyboard_white_key_selector_default_low",
+    "keyboard_selector_default_delete": "keyboard_white_key_selector_default_delete",
+    "keyboard_selector_default_space": "keyboard_white_key_selector_default_space",
+    "keyboard_selector_digit_delete": "keyboard_white_key_selector_digit_delete",
+    "keyboard_selector_digit_space": "keyboard_white_key_selector_digit_space",
+    "keyboard_selector_key_landscape": "keyboard_white_key_selector_landscape",
+    "keyboard_selector_key_portrait": "keyboard_white_key_selector_portrait",
+    "keyboard_selector_symbol_delete": "keyboard_white_key_selector_default_delete",
+    "keyboard_selector_symbol_space": "keyboard_white_key_selector_symbol_space"
+}
