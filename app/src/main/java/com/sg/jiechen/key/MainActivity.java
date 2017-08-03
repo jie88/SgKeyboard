@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     edit=(EditText)findViewById(R.id.edit);
 
+    // 注册密码键盘
+    SgKeyboardManager.registerEditText(edit);
+
+    // 注册乱序密码键盘
     SgKeyboardManager.registerEditText(edit,true);
 
   }

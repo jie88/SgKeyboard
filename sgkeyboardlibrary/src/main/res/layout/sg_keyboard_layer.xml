@@ -48,7 +48,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:minHeight="20dp"
-            android:text="梁大璐安全键盘"
+            android:text="SG安全键盘"
             android:textColor="@color/white"
             android:textSize="@dimen/ccb_txt_size_small" />
 
