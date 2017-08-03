@@ -15,7 +15,7 @@ Gradle
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.jie88:SgKeyboard:v1.0.0'
+	        compile 'com.github.jie88:SgKeyboard:V1.0.1'
 	}
 
 调用方法：
